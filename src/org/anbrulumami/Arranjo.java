@@ -20,7 +20,12 @@ public class Arranjo {
     }
 
     public int soma() {
-        return 0;
+	    int soma = 0;
+	    for(int j = 0; j < nums.lenght; j++){
+		    soma = soma + nums[j];
+	    }
+			
+        return soma;
     }
 
     public int repeticoes(int i) {
