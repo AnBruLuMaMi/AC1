@@ -16,7 +16,14 @@ public class Arranjo {
     }
 
     public int maior() {
-        return 0;
+	int maiorNum = nums[0];
+	for(int k = 0; k<nums.lenght;k++) {
+		int m = nums[k];
+		if(m>maiorNum) {
+			maiorNum = m;
+		}
+	}
+        return maiorNum;
     }
 
     public int soma() {
