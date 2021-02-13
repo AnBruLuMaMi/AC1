@@ -21,7 +21,7 @@ public class Arranjo {
 
     public int soma() {
 	    int soma = 0;
-	    for(int j = 0; j < nums.lenght; j++){
+	    for(int j = 0; j < nums.length; j++){
 		    soma = soma + nums[j];
 	    }
 			
