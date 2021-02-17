@@ -36,6 +36,12 @@ public class Arranjo {
     }
 
     public int repeticoes(int i) {
-        return 0;
+        int cont = 0;
+        for(int x = 0; x < nums.length; x++){
+            if(nums[x] == i){
+                cont = cont + 1;
+            }
+        }
+        return cont;
     }
 }
