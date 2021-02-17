@@ -17,7 +17,7 @@ public class Arranjo {
 
     public int maior() {
 	int maiorNum = nums[0];
-	for(int k = 0; k<nums.lenght;k++) {
+	for(int k = 0; k<nums.length;k++) {
 		int m = nums[k];
 		if(m>maiorNum) {
 			maiorNum = m;
